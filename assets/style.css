@@ -40,6 +40,10 @@ body {
     color: #000
 }
 
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
+
 .social-link img {
     width: 20px;
 }
@@ -116,7 +120,7 @@ body {
 
 .nav-pills .nav-link {
     color: #000;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .item-column {

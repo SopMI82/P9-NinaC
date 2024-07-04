@@ -42,8 +42,8 @@ body {
 
 img {
     width: 100%;
+    height: auto;
     object-fit: cover;
-    aspect-ratio: attr(width) / attr(height);
 }
 
 .social-link img {
@@ -272,6 +272,26 @@ input[type="submit"] {
     background-color: #BEB45A;
     padding: .5em 1em
 }
+
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #F6D2B8;
+}
+
+footer h2 {
+    color: #E5975F;
+}
+
+footer address {
+    text-align: center;
+        margin: 20px;
+}
+
 
 @media all and (max-width: 1180px) {
     .picture {

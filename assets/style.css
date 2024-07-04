@@ -273,6 +273,18 @@ input[type="submit"] {
     padding: .5em 1em
 }
 
+footer{
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background-color: #000;
+    color: #F6D2B8;
+}
+
+footer h3 {
+    color: #E5975F;
+}
+
 @media all and (max-width: 1180px) {
     .picture {
         flex: 2;
